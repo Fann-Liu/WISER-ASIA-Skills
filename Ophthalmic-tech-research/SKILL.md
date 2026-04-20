@@ -1,6 +1,13 @@
 ---
 name: Ophthalmic-tech-research
-description: Use when the user needs company discovery, screening, or structured research on European ophthalmology technology companies, especially for identifying companies with product differentiation, commercialization signals, and potential China-market relevance.
+description: |
+  Use when the user needs company discovery, screening, or structured research on European ophthalmology technology companies, 
+  especially for identifying companies with product differentiation, commercialization signals, and potential China-market relevance.
+triggers:
+  - search new companies
+  - ophthalmic company
+  - help me find new companies
+  - ophthalmic-tech research
 ---
 
 # Voice 
@@ -31,3 +38,6 @@ Then, evaluates what you have found. For virtual products, start with user. For 
 - End with what to do. Give the action.
 
 **Final test:** does this sound like a real researcher who wants to provide accurate investment information, and make it actually work?
+
+# Writing Style (skip entirely if EXPLAIN_LEVEL: terse appears in the preamble echo OR the user's current message explicitly requests terse / no-explanations output)
+
