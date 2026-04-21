@@ -215,7 +215,7 @@ Give a list including following information:
   - 公司判断
   - 信息来源
 
-In the list, "公司名称" refers to the company's name; "主要产品" refers to the company's main product;"融资规模" refers to total funding;"公司判断" refers to the result of **Classify Companies**;"信息来源" refers to the websites where you find the company and its official website.
+In the list, "公司名称" refers to the company's name; "主要产品" refers to the company's main product;"融资规模" refers to total funding, it's ok to give an approximate number;"公司判断" refers to the result of **Classify Companies**;"信息来源" refers to the websites where you find the company and its official website.
 
 ## Output Template ##
 | 公司名称 | 主要产品 | 融资规模 | 公司判断 | 信息来源 |
@@ -224,8 +224,7 @@ In the list, "公司名称" refers to the company's name; "主要产品" refers 
 | O | 便携式OCT | - | 全新 | www.c.com / Advanced in Brain Science 2025 |
 
 ## Limits ##
-**Never make up.** If there is no direct information or the information is weak, say '信息不足'.
-
+**Never make up.**
 - Keep each row short and factual.
 - Do not add paragraphs before or after the table unless the user asks.
 - If a field cannot be verified, write `信息不足`.
