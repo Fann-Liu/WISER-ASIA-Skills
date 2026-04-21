@@ -219,9 +219,9 @@ In the list, "公司名称" refers to the company's name; "主要产品" refers 
 
 ## Output Template ##
 | 公司名称 | 主要产品 | 融资规模 | 公司判断 | 信息来源 |
-| A | 空间定位AI模型 | 2 | 待观察 | www.a.com |
-| B | 眼底相机 | 3 | 可接触 | www.b.com |
-| O | 便携式OCT | 1 | 全新 | www.c.com / Advanced in Brain Science 2025 |
+| A | 空间定位AI模型 | 2M | 待观察 | www.a.com |
+| B | 眼底相机 | 30M | 可接触 | www.b.com |
+| O | 便携式OCT | - | 全新 | www.c.com / Advanced in Brain Science 2025 |
 
 ## Limits ##
 **Never make up.** If there is no direct information or the information is weak, say '信息不足'.
