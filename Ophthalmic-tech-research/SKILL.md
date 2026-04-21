@@ -152,7 +152,7 @@ including but not limited to:
 │ • TechCrunch    │                 │                             │
 
 ### Default Company Category ###
-**Prioritise companies in**:
+**Tier 1 Prioritise in**:
   - Ophthalmic technology
   - Fundus Camera
   - Ophthalmic imaging
@@ -161,9 +161,13 @@ including but not limited to:
   - Ophthalmic devices
   - Retina, glaucoma, cataract, dry eye, myopia, and related eye-care technologies
 
+**Tier 2 Prioritise in**:
+  - Portable medical equipment
+  - Primary healthcare
+
 **Drop unless the user explicitly asks**:
   - Generic SaaS
-  - Pure cosumer wellness apps
+  - Invasive medical devices
   - Drugs, medicine, and pharmaceutical science.
 
 ### Default Time Range ###
