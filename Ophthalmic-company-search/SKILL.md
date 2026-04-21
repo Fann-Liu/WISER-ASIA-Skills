@@ -1,8 +1,8 @@
 ---
-name: Ophthalmic-Tech-Search
+name: Ophthalmic-company-search
 description: |
-  Use when the user needs company discovery, screening, or structured research on European ophthalmology technology companies, 
-  especially for identifying companies with product differentiation, commercialization signals, and potential China-market relevance.
+  Use when the user wants to find new companies, recent startups, or promising projects in ophthalmology, eye-care, retinal imaging, fundus camera, eye screening, or ophthalmic devices, especially in Europe and the Nordic region. This includes common Chinese requests such as “帮我找点新公司”, “最近有什么北欧初创公司”, “帮我找找最近的眼科公司”, “搜一些欧洲眼科技术项目”, “看看最近有什么新的眼科创业公司”, and similar sourcing requests. Only do company search and light screening.
+
 triggers:
   - 搜索新公司
   - 眼科项目
