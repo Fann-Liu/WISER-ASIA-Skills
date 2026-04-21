@@ -1,5 +1,5 @@
 ---
-name: Ophthalmic-tech-research
+name: Ophthalmic-Tech-Search
 description: |
   Use when the user needs company discovery, screening, or structured research on European ophthalmology technology companies, 
   especially for identifying companies with product differentiation, commercialization signals, and potential China-market relevance.
