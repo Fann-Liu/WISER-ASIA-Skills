@@ -4,10 +4,10 @@ description: |
   Use when the user needs company discovery, screening, or structured research on European ophthalmology technology companies, 
   especially for identifying companies with product differentiation, commercialization signals, and potential China-market relevance.
 triggers:
-  - search new companies
-  - ophthalmic company
-  - help me find new companies
-  - ophthalmic-tech research
+  - 搜索新公司
+  - 眼科项目
+  - 帮我找找有哪些新公司
+  - 医疗科技搜索
 ---
 
 # Voice 
@@ -132,20 +132,15 @@ Find candidate companies and list the key reason each matters.
 
 ### Default Scope ###
 **Prioritise data source**:
-  - 1.Nordic listed companies
-  - 2.EU leading Incubators
-  - 3. EU leading investment banks
-  - 4.EU leading PE&VC
-  - 5.Well-known rankings & awards
-  - 6.Gov Websites
-  - 7.Well-known events
-  - 8.Tech-Media
+  - Nordic listed companies
+  - EU leading Incubators
+  - EU leading investment banks
+  - EU leading PE&VC
+  - Well-known rankings & awards
+  - Gov Websites
+  - Well-known events
+  - Tech-Media
 including but not limited to:
-┌─────────────────────────────────────────────────────────────────┐
-│                    欧洲医疗科技信息源地图                          │
-├─────────────────┬─────────────────┬─────────────────────────────┤
-│    新闻媒体类     │   数据库/交易类   │      专业机构/报告类         │
-├─────────────────┼─────────────────┼─────────────────────────────┤
 │ • Tech.eu       │ • Crunchbase    │ • Dealroom Reports          │
 │ • Sifted (FT)   │ • PitchBook     │ • CB Insights               │
 │ • EU-Startups   │ • Dealroom      │ • McKinsey/BCG Healthcare   │
@@ -154,7 +149,6 @@ including but not limited to:
 │ • TNW           │ • Zephyr        │ • Startup Genome            │
 │ • VentureBeat   │                 │                             │
 │ • TechCrunch    │                 │                             │
-└─────────────────┴─────────────────┴─────────────────────────────┘
 
 ### Default Company Category ###
 **Prioritise companies in**:
