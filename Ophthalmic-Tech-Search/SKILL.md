@@ -201,7 +201,7 @@ This rule only applies to medical device products. If the product does not requi
   3. The company is financed and total funding is more than EUR or CHF 5 million.
 
 **Classify Companies**
-According to judgmenmt above, classify companies.
+According to judgement above, classify companies.
 If pattern = 1 or 2 and financing = 1, classify the company as "全新"
 If pattern = 1 or 2 and financing = 2 or 3, or pattern = 3 and financing = 1, classify the company as "待观察"
 If pattern = 3 or 4 and financing = 2 or 3, classify the company as "可接触"
