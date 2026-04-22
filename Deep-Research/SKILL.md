@@ -255,7 +255,7 @@ This is a **single-company deep research** skill.
 
 ---
 
-# Research Objective
+## Research Objective
 
 For one company, determine:
 
@@ -268,9 +268,9 @@ For one company, determine:
 - Whether China is a realistic opportunity
 - Whether WISER can create real value for this company
 
-# Workflow
+## Workflow
 
-## Step 1: Define the company clearly
+### Step 1: Define the company clearly
 
 Write the shortest correct definition possible:
 
@@ -286,7 +286,7 @@ Avoid vague labels like "AI healthcare platform" unless the company truly is one
 Good example:
 "Optomed is a hand-held fundus camera company with screening workflow and AI-read integration, mainly used for diabetic retinopathy screening in primary care and mobile care settings."
 
-## Step 2: Verify the customer and use case
+### Step 2: Verify the customer and use case
 
 Answer:
 
@@ -309,7 +309,7 @@ Separate:
 - channel partner
 - referral partner
 
-## Step 3: Verify commercial viability
+### Step 3: Verify commercial viability
 
 Look for:
 
@@ -327,7 +327,7 @@ Key questions:
 - Can this scale beyond one-off trial projects
 - Is this a device sale, workflow sale, or outcome sale
 
-## Step 4: Verify technical and regulatory readiness
+### Step 4: Verify technical and regulatory readiness
 
 For the relevant product, check:
 
@@ -344,7 +344,7 @@ Do not confuse:
 - clinically useful product
 - commercially scalable product
 
-## Step 5: Estimate market with explicit assumptions
+### Step 5: Estimate market with explicit assumptions
 
 Only size the market after the use case and payment logic are reasonably clear.
 
@@ -363,7 +363,7 @@ Use transparent assumptions.
 If the data is weak, state the weakness.
 Prefer a credible range over a false precise number.
 
-## Step 6: Assess differentiation
+### Step 6: Assess differentiation
 
 Ask:
 
@@ -375,7 +375,7 @@ Ask:
 
 Do not overstate small feature differences as moat.
 
-## Step 7: Assess China landing potential
+### Step 7: Assess China landing potential
 
 This is a required section for WISER relevance.
 
@@ -396,7 +396,7 @@ Answer concretely:
 
 Do not say "China market is large" unless you also explain how the company actually enters it.
 
-## Step 8: Judge WISER fit
+### Step 8: Judge WISER fit
 
 This is not generic investing. This is WISER work.
 
@@ -415,7 +415,7 @@ Answer:
 
 If WISER cannot help meaningfully now, say so.
 
-## Step 9: Conclude with a decision
+### Step 9: Conclude with a decision
 
 End with one of:
 
@@ -429,58 +429,45 @@ Then explain in 3 parts:
 - What is still unproven
 - What must be verified next
 
-# Required Output Structure
+## Required Output Structure
 
-## 1. One-line verdict
+### 1. One-line verdict
 A sharp sentence with the core judgment.
 
-## 2. Company definition
+### 2. Company definition
 What it is, what it sells, who it serves.
 
-## 3. Why this may matter
+### 3. Why this may matter
 Problem severity, timing, buyer logic.
 
-## 4. Customer and workflow
+### 4. Customer and workflow
 User, buyer, use case, purchase trigger.
 
-## 5. Commercial model
+### 5. Commercial model
 Revenue logic, pricing logic, repeatability, deployment evidence.
 
-## 6. Technology and regulatory readiness
+### 6. Technology and regulatory readiness
 What is mature, what is validated, what is still risky.
 
-## 7. Market reality
+### 7. Market reality
 Market size logic, user segmentation, adoption constraints.
 
-## 8. Differentiation
+### 8. Differentiation
 Real edge, weak edge, copy risk.
 
-## 9. China opportunity
+### 9. China opportunity
 Likely first buyers, entry path, main obstacles.
 
-## 10. WISER fit
+### 10. WISER fit
 Why WISER should or should not spend time here.
 
-## 11. Risks and missing proof
+### 11. Risks and missing proof
 Bullet the missing evidence clearly.
 
-## 12. Recommendation
+### 12. Recommendation
 Proceed / Watch / Pass
 
-# Writing Rules
-
-- Short sentences
-- Concrete nouns
-- No inflated adjectives
-- No fake certainty
-- No "this market is expected to grow rapidly" filler
-- If a number matters, explain where it comes from
-- If evidence is missing, say "not verified"
-- If something is inference, label it as inference
-- Prefer "who pays and why" over generic market talk
-- Prefer "what changes in workflow" over abstract product descriptions
-
-# What Good Output Looks Like
+## What Good Output Looks Like
 
 A good output lets a partner quickly answer:
 
@@ -491,17 +478,17 @@ A good output lets a partner quickly answer:
 - Is China real
 - Is WISER relevant
 
-# Boundaries With Other Skills
+## Boundaries With Other Skills
 
-## Compared with Ophthalmic-company-search
+### Compared with Ophthalmic-company-search
 That skill finds targets and does first-pass screening.
 This skill takes one target and goes deep.
 
-## Compared with competitor-analysis
+### Compared with competitor-analysis
 That skill maps the competitive field in detail.
 This skill only includes enough competition analysis to judge the target company.
 
-# Final Check
+## Final Check
 
 Before finishing, ask yourself:
 
