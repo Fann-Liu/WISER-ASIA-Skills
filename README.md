@@ -1,10 +1,10 @@
-# WISER-ASIA-Skills
+# True-VC-Skills
 This is a repository to store skills. These skills imitate and standardise the workflow of a Medtech & Hardtech-focused VC researcher.
 
 ---
 # Ophthalmic Company Search
 
-A sourcing skill for WISER ASIA.
+A sourcing skill for a boutique VC institution.
 
 This skill finds European ophthalmology technology companies, especially in the Nordic region, and returns a short table for first-pass screening.
 
