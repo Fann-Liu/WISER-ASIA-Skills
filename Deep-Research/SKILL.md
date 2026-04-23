@@ -1,7 +1,7 @@
 ---
 name: VC Deep Research
 description: |
-  Use when the user wants a deep research memo on one company after initial sourcing. This skill is for single-company deep diligence, not broad company discovery and not full competitor mapping. It evaluates product value, customer demand, commercial viability, regulatory readiness, China landing potential, and WISER-fit.
+  Use when the user wants a deep research memo on one company after initial sourcing. This skill is for single-company deep diligence, not broad company discovery and not full competitor mapping. It evaluates product value, customer demand, commercial viability, regulatory readiness, China landing potential, and VC-fit.
 
 triggers:
   - 深度调研
@@ -385,22 +385,94 @@ Ask:
 - Are the regulatory claims current and relevant to the target market?
 - Is there enough evidence that the product can be used consistently in the real world?
 
-## Step 6: Assess differentiation
+## Step 6: Assess differentiation and moat
 
-Do not treat every feature as a moat.
+Do not stop at product differentiation.
+Test whether the difference is durable enough to function as a real moat.
 
-Answer:
-- Is this me-better or me-first?
-- What exactly is differentiated?
-- Is the edge based on product form factor, evidence, workflow fit, price, reimbursement, regulatory lead, channel, or installed base?
-- Is the edge durable or easy to copy?
-- Would the buyer care enough about this difference to switch or adopt?
+Start with the basic question:
+- What is actually different about this company?
+- Why does that difference matter to the buyer?
+- Could a serious competitor replicate it with focused effort?
+- If copied, would the company still retain an advantage?
 
-Separate:
-- true differentiation
-- temporary advantage
-- feature-level distinction
-- founder narrative
+The goal is not just to identify difference.
+The goal is to judge whether that difference creates durable economic protection.
+
+Assess the company using the five classic moat types where relevant:
+- intangible assets
+- cost advantage
+- switching costs
+- network effects
+- efficient scale
+
+For each company, determine:
+- which moat type is actually present
+- whether it is strong, medium, or weak
+- whether it is widening, stable, or narrowing
+- whether the advantage is hard, moderate, or easy to replicate
+- what evidence supports that judgment
+
+In ophthalmic and medical technology markets, moat often appears in sector-specific forms such as:
+- regulatory approvals and multi-market compliance
+- clinical validation and physician trust
+- workflow integration and installed behavior
+- distributor relationships and channel control
+- installed base and service network
+- reimbursement fit
+- procurement familiarity
+- product form factor that meaningfully improves adoption or access
+
+Translate those signals carefully into actual moat types rather than listing them as proof by default.
+
+For example:
+- clinical trust, brand, regulatory credibility, and recognized validation may support **intangible assets**
+- lower screening cost, lower service burden, or manufacturing efficiency may support **cost advantage**
+- workflow integration, staff training, installed routines, and IT integration may support **switching costs**
+- true **network effects** are rare and should be used cautiously
+- a narrow market where only one or two players can earn attractive returns may support **efficient scale**
+
+Be especially careful with network effects.
+In medical devices and clinical workflow businesses, true network effects are uncommon.
+Do not label data accumulation, installed base, or channel familiarity as network effects unless the product becomes more valuable to each user because more users are already on it.
+
+Do not confuse these things:
+- a differentiated feature
+- a temporary lead
+- a real moat
+- a moat that can survive scale competition
+
+A company may look differentiated but still have no durable moat.
+A company may have a real moat in one geography but not in China.
+A company may have technical strength but weak economic protection.
+A company may have regulatory clearance but still be easy to displace commercially.
+
+Pressure-test the moat with the buyer in mind:
+- Does the buyer care enough about the difference to choose this product?
+- Would that advantage survive price competition?
+- Does the advantage strengthen as the company scales?
+- Does it depend on a founder-led story, or is it embedded in the business?
+- Is the moat improving, stable, or weakening over time?
+
+The key judgment is not only "what is the moat," but also:
+- does the buyer care
+- can competitors copy it
+- does it strengthen with scale
+- is it getting stronger or weaker over time
+
+When writing the conclusion for this section, use a structure like:
+
+- Moat type: [intangible assets / cost advantage / switching costs / network effects / efficient scale / none]
+- Moat strength: [strong / medium / weak]
+- Moat trend: [widening / stable / narrowing]
+- Replicability: [hard / moderate / easy]
+- Buyer relevance: [high / medium / low]
+- Main evidence: [specific facts, not adjectives]
+
+If no real moat is visible, say so directly.
+"Clear differentiation but weak moat" is a valid conclusion.
+"So far this looks like product advantage without durable protection" is a valid conclusion.
+
 
 ## Step 7: Size the reachable market
 
