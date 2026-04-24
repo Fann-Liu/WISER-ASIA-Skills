@@ -950,121 +950,146 @@ That judgment belongs to the reader.
 
 
 
-# Required Output Structure
+# Output Structure
 
-## 1. One-line verdict
-A sharp summary of the judgment.
+Use the following structure for every deep-research output.
+All major sections are required unless the evidence is genuinely unavailable.
+If evidence is missing, say so directly. Do not fill gaps with invented detail.
 
-## 2. Company definition
-What the company is, what it sells, and what category it is really in.
+## 1. One-line Verdict
+[One sharp sentence stating what the company is, what appears strongest, and what appears weakest or most unproven.]
 
-## 3. Why this matters
-Why the problem matters now and why this company may matter in that context.
+## 2. Company Definition
+- Company:
+- Core product:
+- Real category:
+- Problem solved:
+- Primary user:
+- Main setting of use:
 
-## 4. Customer, buyer, and workflow
-Who uses it, who pays, who approves, and what changes after adoption.
+## 3. Problem, Use Case, and Workflow
+- Current workflow:
+- Current bottleneck:
+- What changes after adoption:
+- Why this problem matters operationally or clinically:
+- Is this a must-solve pain point, meaningful workflow improvement, or minor convenience:
 
-## 5. Commercial model
-How revenue is created, what the buying logic is, and whether the model looks scalable.
+## 4. Customer, Buyer, and Payment Chain
+- End user:
+- Economic buyer:
+- Approver:
+- Influencer:
+- Channel partner, if relevant:
+- Why they would pay:
+- Budget or payment logic:
+- Purchase type: [one-off / recurring / usage-based / unclear]
+- What is still unclear:
 
-## 6. Product, clinical, and regulatory readiness
-What is mature, what is validated, and what is still weak or unproven.
+## 5. Commercial Model
+- Revenue model:
+- Pricing logic:
+- Sales motion:
+- Deployment complexity:
+- Service burden:
+- Recurring revenue logic, if any:
+- Evidence of real demand:
+- Evidence that may only reflect pilots, partnerships, or narrative:
+- What would need to be true for this model to scale:
 
-## 7. Differentiation
-What is truly differentiated, what is merely described as differentiated, and how durable the edge looks.
+## 6. Product, Clinical, and Regulatory Readiness
+- Product maturity:
+- Technical readiness:
+- Validation quality:
+- Clinical evidence:
+- Regulatory status:
+- Integration burden:
+- Training burden:
+- Confirmed:
+- Inference:
+- Not verified:
 
-## 8. Market reality
-Reachable market, adoption logic, and the assumptions behind the sizing.
+## 7. Differentiation and Moat
+- Core differentiation:
+- Moat type: [intangible assets / cost advantage / switching costs / network effects / efficient scale / none]
+- Moat strength: [strong / medium / weak]
+- Moat trend: [widening / stable / narrowing]
+- Replicability: [hard / moderate / easy]
+- Buyer relevance: [high / medium / low]
+- Main evidence:
+- What may be only temporary advantage:
+- What may hold outside China but weaken inside China:
 
-## 9. China landing potential
-Likely first customer, likely path to entry, and major blockers.
+## 8. Market Sizing
+- Segment from Step 3:
+- Defined market:
+- TAM:
+- SAM:
+- SOM:
+- Top-down method, if used:
+- Top-down formula:
+- Bottom-up method, if used:
+- Bottom-up formula:
+- Bear case:
+- Base case:
+- Bull case:
+- Confirmed inputs:
+- Inferred inputs:
+- Weak assumptions:
+- Theoretical demand:
+- Reachable demand under current conditions:
+- What cannot yet be verified:
 
-## 10. WISER fit
-Why WISER should spend time here or not.
+## 9. China Entry Path and VC Relevance
+- Current status quo in China:
+- Narrowest believable wedge:
+- First user:
+- First buyer:
+- First setting:
+- Likely first channel:
+- Main entry bottlenecks:
+- Evidence supporting this wedge:
+- What remains theoretical:
+- Possible VC role:
+- Whether VC relevance looks direct, indirect, or weak:
 
-## 11. Risks and missing proof
-List the missing evidence clearly and separately from confirmed facts.
+## 10. Risks and Missing Proof
+- Key business risks:
+- Key technical or regulatory risks:
+- Key China-entry risks:
+- Missing evidence:
+- Assumptions that would materially change the view if disproven:
 
-## 12. Recommendation
-Proceed / Watch / Pass
+## 11. What Can Be Stated with Confidence
+- Confirmed point 1:
+- Confirmed point 2:
+- Confirmed point 3:
 
-Include:
-- Core reason
-- Biggest open question
-- Next thing to verify
+## 12. What Still Needs Verification
+- Open question 1:
+- Open question 2:
+- Open question 3:
+- Highest-priority next verification step:
 
-# Output Requirements
-
-Every report should make it easy for a reader to answer:
-
-- What does this company actually do?
-- Is the problem worth solving?
-- Is the buyer real?
-- Is the product ready enough?
-- Is the commercial logic believable?
-- Is the differentiation meaningful?
-- Is China actually relevant?
-- Can WISER help?
-- Should we spend more time here?
-
-The output must contain both:
-- judgment
-- support
-
-A good memo does not just conclude.
-It shows why the conclusion deserves to be believed.
-
-# Boundaries With Other Skills
-
-## Compared with Ophthalmic-company-search
-
-`Ophthalmic-company-search` is for finding companies and doing first-pass screening.
-
-It is used to answer:
-- Is this company worth noticing?
-- Why now?
-- Is there enough signal to put it on the list?
-
-This deep-research skill is used after that.
-
-It is used to answer:
-- Is this company worth deeper WISER attention?
-- Is the product, business, and China path believable?
-- What would make us proceed, wait, or pass?
-
-## Compared with competitor-analysis
-
-`competitor-analysis` is for detailed market mapping and side-by-side competitor breakdown.
-
-It is used to answer:
-- Who else is in the field?
-- How do competitors compare across product, pricing, channel, evidence, and positioning?
-- Where does the target company sit in the competitive set?
-
-This deep-research skill should include only the amount of competition analysis needed to judge the target company.
-It should not become a full category mapping exercise.
+## 13. Neutral Closing Summary
+[A short closing paragraph stating what the company appears to be, where the strongest evidence sits, where the biggest uncertainty sits, and what should be verified next.]
 
 # Final Check
 
 Before finishing, ask:
 
-- Did I define the company precisely?
-- Did I identify the real buyer, not just the user?
-- Did I explain why someone would pay?
-- Did I separate fact, inference, and unknowns?
-- Did I test commercial logic instead of repeating company claims?
-- Did I discuss China in operational terms?
-- Did I explain whether WISER can help in a concrete way?
-- Did I make the final recommendation feel earned?
-
-# Final Test
-
-A strong output should read like a real buy-side decision memo.
-
-It should not read like:
-- a company profile
-- a press summary
-- a founder pitch cleaned up into paragraphs
-- a generic industry report
-
-It should feel like a serious internal judgment built from evidence, with enough explanation that another investor can audit the reasoning and disagree intelligently.
+- Did I define the company precisely, rather than using broad category language?
+- Did I describe the actual workflow, not just the product pitch?
+- Did I identify the real user, buyer, approver, and payment logic?
+- Did I distinguish evidence of real demand from pilots, partnerships, or narrative?
+- Did I separate confirmed facts, inference, and unverified claims?
+- Did I assess differentiation as moat, not just as feature difference?
+- Did I identify moat type, strength, trend, and replicability clearly?
+- Did the market sizing follow the segment identified earlier, rather than a broad generic market?
+- Did I show the math and assumptions explicitly where numbers were used?
+- Did I avoid inventing inputs or overstating weak assumptions?
+- Did I describe China entry through a specific wedge, rather than generic market language?
+- Did I identify the real status quo that the company would need to replace in China?
+- Did I explain whether VC relevance is concrete or only theoretical?
+- Did I make uncertainty visible instead of smoothing it over?
+- Did I avoid final investment judgment if the user did not ask for it?
+- If the evidence is too weak, did I say so directly?
