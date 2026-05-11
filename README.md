@@ -1,46 +1,140 @@
-# True-VC-Skills
-This is a repository to store skills. These skills imitate and standardise the workflow of a Medtech & Hardtech-focused VC researcher.
-
----
 # Ophthalmic Company Search
 
-A sourcing skill for a boutique VC institution.
+这个 skill 用来做眼科公司发现和第一轮轻筛。它适合在还没有明确目标公司时使用，目标是快速找出值得继续看的欧洲和北欧眼科技术公司，并用可验证信息判断它们属于“全新”“待观察”还是“可接触”。
 
-This skill finds European ophthalmology technology companies, especially in the Nordic region, and returns a short table for first-pass screening.
+它不是深度尽调工具。它不写长篇公司研究，不做完整市场分析，不做竞争格局拆解，也不输出投资推荐 memo。
 
-## Scope
+## 适用场景
 
-Prioritize:
-- ophthalmic technology
-- fundus camera
-- ophthalmic imaging
-- eye screening and diagnostics
-- artificial intelligence-assisted ophthalmology
-- ophthalmic devices
-- retina, glaucoma, cataract, dry eye, myopia, and related eye-care technologies
+当用户想要找眼科、眼健康、眼底相机、眼科影像、眼筛查、眼科人工智能、眼科设备相关公司时使用。
 
-Also consider:
-- portable medical equipment
-- primary healthcare
+典型请求包括：
 
-Exclude unless explicitly requested:
-- generic software as a service
-- invasive medical devices
-- drugs and pharmaceutical science
+- 帮我找点新的眼科公司
+- 最近有什么北欧眼科初创公司
+- 搜一些欧洲眼科技术项目
+- 看看最近有没有值得关注的眼筛查公司
+- 找眼底相机、视网膜影像、青光眼、白内障、干眼、近视相关公司
 
-## Rules
+默认范围是欧洲公司，优先北欧。用户没有指定时间范围时，默认关注最近一个月内有新动态的公司。
 
-- Europe only, prefer Nordic companies
-- default time range: one month
-- output only a short sourcing table
-- no deep research, no market analysis, no outreach drafting
-- use verifiable information only
-- if funding is undisclosed or treated as unfunded, output `--`
-- `--` means financing = 1
+## 不适用场景
 
-## Output
+不要用这个 skill 处理以下任务：
 
-| 公司名称 | 主要产品 | 融资规模 | 公司判断 | 信息来源 |
-```
+- 单家公司深度研究
+- 投资 memo
+- 中国落地策略分析
+- 竞争对手全景图
+- 行业教育文章
+- 药物、制药、侵入式医疗器械研究
+- 泛软件即服务公司搜索
+- 和眼科关系很弱的通用医疗科技项目
 
----
+如果用户已经指定了一家公司，并希望判断是否值得继续看，应改用 `VC Deep Research`。
+
+## 搜索优先级
+
+优先使用能直接证明公司真实状态的公开来源。
+
+推荐顺序：
+
+1. 公司官网、产品页、新闻稿、监管或认证文件
+2. Nordic 和 European startup 数据库、排名、孵化器和加速器页面
+3. 上市公司公告和投资者关系材料
+4. 政府、监管机构、医院、大学、研究项目页面
+5. 可信科技和医疗媒体
+6. 投资机构、会议、活动和数据库页面
+
+常用来源包括 Tech.eu、Sifted、EU-Startups、Silicon Canals、Dealroom、Crunchbase、PitchBook、CB Insights、Tracxn、MedTech Europe、Startup Genome、TechCrunch 等。
+
+如果信息无法验证，要明确写出“不确定”或“未找到明确信息”，不要用媒体摘要替代事实。
+
+## 公司筛选范围
+
+优先关注：
+
+- 眼科技术
+- 眼底相机
+- 眼科影像
+- 眼筛查和诊断
+- 眼科人工智能
+- 眼科设备
+- 视网膜、青光眼、白内障、干眼、近视等眼健康技术
+
+次优先关注：
+
+- 便携医疗设备
+- 基层医疗设备
+- 能明显延伸到眼科筛查或诊断流程的医疗工具
+
+默认排除：
+
+- 泛软件
+- 药物和制药科学
+- 侵入式医疗器械
+- 没有明确眼科应用的通用健康产品
+
+## 轻筛逻辑
+
+对医疗器械类公司，先判断产品阶段：
+
+1. 产品还在概念或理论阶段
+2. 产品存在，但还没有必要监管认证
+3. 产品有必要监管认证，但还没有商业化
+4. 产品已经商业化，并且进入较成熟阶段
+
+再判断融资情况：
+
+1. 没有披露融资、融资不明确，或按未融资处理
+2. 已融资，累计融资低于五百万欧元或五百万瑞士法郎
+3. 已融资，累计融资高于五百万欧元或五百万瑞士法郎
+
+最终分类：
+
+| 产品阶段 | 融资情况 | 公司判断 |
+|---|---|---|
+| 阶段 1 或 2 | 融资 1 | 全新 |
+| 阶段 1 或 2 | 融资 2 或 3 | 待观察 |
+| 阶段 3 | 融资 1 | 待观察 |
+| 阶段 3 或 4 | 融资 2 或 3 | 可接触 |
+
+如果产品不需要医疗认证，只按商业化阶段和融资水平判断。
+
+## 输出格式
+
+输出必须短。目标是帮助投资团队快速决定下一步是否要深挖。
+
+标准输出字段：
+
+| 公司名称 | 主要产品 | 融资规模 | 公司判断 |
+|---|---|---|---|
+|  |  |  |  |
+
+可以在表格后加很短的总结，说明最值得继续看的公司和主要不确定性。
+
+## 写作标准
+
+写作要直接、具体、有证据感。
+
+要求：
+
+- 先给结论，再给理由
+- 写清楚来源，不要只写“据报道”
+- 区分确认事实和推断
+- 不使用夸张营销语言
+- 不把试点、合作、会议曝光自动当成商业化证据
+- 不把“有技术”写成“有投资价值”
+- 结尾给完整总结
+
+如果涉及眼科术语，要用一句白话解释。比如“眼底是医生通过瞳孔看到的眼球后部区域，常用于判断视网膜和视神经状态”。
+
+## 维护建议
+
+维护这个 skill 时，优先更新三类内容：
+
+1. 来源列表，加入新的欧洲和北欧医疗科技数据库
+2. 筛选规则，特别是监管、商业化和融资分档
+3. 眼科术语表，补充研究中反复出现但普通读者不容易理解的词
+
+不要把深度研究框架塞进这个 skill。它的价值在于快、准、短。
