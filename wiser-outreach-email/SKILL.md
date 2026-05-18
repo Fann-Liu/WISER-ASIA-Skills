@@ -116,6 +116,96 @@ Keep Kevin voice strong but clean. Fix grammar and remove overlong sentences whi
 - When internally forwarding or looping in Kevin/Judy, keep the note short and action-oriented.
 - If meeting scheduling is the only task, do not reopen the whole WISER pitch.
 
+## Natural Business Writing: Avoid AI Flavor
+
+When drafting WISER outreach emails, the goal is not to make the email look perfectly structured. The goal is to make it sound like a thoughtful business person wrote it for this specific company.
+
+Avoid writing that feels like an AI-generated memo:
+- Too many section headers.
+- Too many bullet points.
+- Over-polished transitions.
+- Generic enthusiasm.
+- Repeating the same idea in different words.
+- Explaining every possible angle.
+- Turning the email into a market report.
+- Making every paragraph sound equally important.
+
+Prefer writing that feels specific, practical, and human:
+- Start from the actual reason we are contacting this company.
+- Use one or two concrete facts to show we understand the product.
+- Explain the China angle in plain business language.
+- Connect WISER's resources only where they are genuinely relevant.
+- Leave some natural asymmetry in the email. Not every thought needs a heading or a perfect list.
+- Use short paragraphs, but do not force every email into the same structure.
+- A small amount of directness is better than a polished consulting tone.
+
+The email should feel like a serious but natural BD note, not a deck summary.
+
+### Style Direction
+
+Use clear English. Keep sentences grounded in facts and practical business logic.
+
+Good writing often looks like this:
+
+```markdown
+China has the world's largest Parkinson's disease population. The disease burden is growing fast as the population ages. Diagnosis remains largely subjective at the primary-care level, and specialist neurologists are concentrated in tier-1 cities. A portable, objective bedside tool like neuroClues that can be operated by a generalist would address a real access gap in China's medical system.
+```
+
+This works because it is specific, direct, and commercially relevant. It does not over-explain.
+
+Avoid sentences like:
+
+```markdown
+This represents a compelling opportunity to unlock significant clinical and commercial value across China's rapidly evolving healthcare ecosystem.
+```
+
+This sounds generic and AI-written.
+
+### WISER Positioning
+
+When introducing WISER, keep it simple and credible. Do not over-sell.
+
+Preferred direction:
+
+```markdown
+I am writing from WISER ASIA, a China & Nordic based market-entry and venture-development firm focused on medtech. Unlike traditional distributors, we help companies build commercial traction in China by connecting them with hospital networks, local partners, and investors.
+```
+
+Adjust naturally depending on context. Do not repeat this positioning if the recipient already knows WISER.
+
+### Practical Editing Rules
+
+When revising a draft, remove anything that feels like filler.
+
+Usually cut:
+- "We are very impressed by..."
+- "We see strong synergy..."
+- "This could unlock significant opportunities..."
+- "In today's rapidly evolving healthcare landscape..."
+- "We would be delighted to explore..."
+- Long lists of questions.
+- Overly neat headings such as "Why China matters" or "What WISER can offer", unless the email truly needs them.
+
+Usually keep:
+- Product facts.
+- China access gaps.
+- Specific patient or hospital workflow problems.
+- WISER's actual network or portfolio relevance.
+- A clear next step.
+
+### Final Check
+
+Before returning the email, ask:
+
+- Does this sound like it was written for this exact recipient?
+- Would a busy CEO understand the point quickly?
+- Is the China rationale concrete rather than generic?
+- Does WISER sound useful, not desperate?
+- Are there any phrases that feel like AI polish?
+- Could Fann or Kevin send this without embarrassment?
+
+If the draft feels too smooth, too symmetrical, or too complete, make it more direct and more human.
+
 ## Drafting Rules
 
 - Subject lines should be specific: company + China/Asia opportunity, JV, pilot, OEM, screening, or meeting.
